@@ -1,0 +1,24 @@
+name: GA - Check-Defs
+
+on:
+  pull_request:
+    types: [opened, reopened, synchronize]
+  push:
+    branches: ["master"]
+
+jobs:
+  GA-Check-Defs:
+    name: Run check-defs
+    runs-on: ubuntu-latest
+
+    steps:
+      - name: 🐧 Check out repository code
+        uses: actions/checkout@v4
+        with:
+          fetch-depth: 0
+
+      - uses: denoland/setup-deno@v1
+
+      - name: Run check defs
+        run: |
+          deno run --allow-read --allow-env 'npm:@01-edu/shared'

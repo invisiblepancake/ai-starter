@@ -1,0 +1,44 @@
+name: 🌳 On Branch - Build and Test Docker Image
+
+on:
+  pull_request:
+    paths:
+      - 'test-images/*'
+      - '.github/workflows/ga-image-build*'
+    branches: ["master"]
+    types: [ opened, reopened, synchronize ]
+
+jobs:
+  build-image:
+    name: 🏗️ Build Image - Branch
+    runs-on: ubuntu-latest
+
+    steps:
+      - name: 🐧 Checkout
+        uses: actions/checkout@v4
+
+      - name: 📦 Login to GitHub Container Registry
+        uses: docker/login-action@v2
+        with:
+          registry: ghcr.io
+          username: ${{ github.actor }}
+          password: ${{ secrets.GITHUB_TOKEN }}
+
+      - name: 🐳 Login to docker.01-edu.org Registry
+        uses: docker/login-action@v2
+        with:
+          registry: docker.01-edu.org
+          username: ${{ secrets.USER_DOCKER_01EDU_ORG }}
+          password: ${{ secrets.SECRET_DOCKER_01EDU_ORG }}
+
+      - name: 🏗️ Build the Disco JS Docker image
+        if: always()
+        run: |
+          docker build test-images/js  --file test-images/js/Dockerfile --tag ghcr.io/${{ github.repository }}-js:PR${{ github.event.pull_request.number }};
+          docker push ghcr.io/${{ github.repository }}-js:PR${{ github.event.pull_request.number }
+          }
+      - name: 🏗️ Build the Disco DOM Docker image
+        if: always()
+        run: |
+          docker build test-images/dom --file test-images/dom/Dockerfile --tag ghcr.io/${{ github.repository }}-dom:PR${{ github.event.pull_request.number }};
+          docker push ghcr.io/${{ github.repository }}-dom:PR${{ github.event.pull_request.number }}

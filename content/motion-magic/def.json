@@ -1,0 +1,11 @@
+{
+  "type": "quest",
+  "name": "Motion Magic",
+  "attrs": { "videos": "https://www.youtube.com/watch?v=34kAR8yBtDM" },
+  "children": {
+    "first-wink": { "codeEditor": { "enabled": true }, "difficulty": 1.5 },
+    "first-hello": { "codeEditor": { "enabled": true }, "difficulty": 1.5 },
+    "colorful-arms": { "codeEditor": { "enabled": true }, "difficulty": 1.5 },
+    "colorful-legs": { "codeEditor": { "enabled": true }, "difficulty": 1.5 }
+  }
+}

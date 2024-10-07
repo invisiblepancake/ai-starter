@@ -1,0 +1,18 @@
+{
+  "type": "quest",
+  "name": "Shape Crafting",
+  "attrs": { "videos": "https://www.youtube.com/watch?v=-WxWbKwTwqU" },
+  "children": {
+    "the-skeleton": { "codeEditor": { "enabled": true }, "difficulty": 1 },
+    "call-it": { "codeEditor": { "enabled": true }, "difficulty": 1 },
+    "select-then-style": { "codeEditor": { "enabled": true }, "difficulty": 1 },
+    "embedded-organs": { "codeEditor": { "enabled": true }, "difficulty": 1 },
+    "class-it": { "codeEditor": { "enabled": true }, "difficulty": 1 },
+    "glance-on-power": { "codeEditor": { "enabled": true }, "difficulty": 1 },
+    "first-move": {
+      "category": "optional",
+      "codeEditor": { "enabled": true },
+      "difficulty": 1.25
+    }
+  }
+}

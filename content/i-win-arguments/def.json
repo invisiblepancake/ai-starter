@@ -1,0 +1,11 @@
+{
+  "type": "exercise",
+  "name": "i-win-arguments",
+  "attrs": {
+    "expectedFiles": ["i-win-arguments.js"],
+    "language": "js",
+    "validations": [
+      { "type": "tester", "testImage": "ghcr.io/01-edu/test-js", "cooldown": 0 }
+    ]
+  }
+}

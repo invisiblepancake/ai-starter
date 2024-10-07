@@ -1,0 +1,15 @@
+{
+  "type": "exercise",
+  "name": "select-then-style",
+  "attrs": {
+    "expectedFiles": ["select-then-style.html", "select-then-style.css"],
+    "language": "dom",
+    "validations": [
+      {
+        "type": "tester",
+        "testImage": "ghcr.io/01-edu/test-dom",
+        "cooldown": 0
+      }
+    ]
+  }
+}

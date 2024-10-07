@@ -1,0 +1,19 @@
+{
+  "type": "exercise",
+  "name": "colorful-legs",
+  "attrs": {
+    "expectedFiles": [
+      "colorful-legs.css",
+      "colorful-legs.js",
+      "colorful-legs.html"
+    ],
+    "language": "dom",
+    "validations": [
+      {
+        "type": "tester",
+        "testImage": "ghcr.io/01-edu/test-dom",
+        "cooldown": 0
+      }
+    ]
+  }
+}

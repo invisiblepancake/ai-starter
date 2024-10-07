@@ -1,0 +1,11 @@
+{
+  "type": "exercise",
+  "name": "glance-on-power",
+  "attrs": {
+    "expectedFiles": ["glance-on-power.js"],
+    "language": "js",
+    "validations": [
+      { "type": "tester", "testImage": "ghcr.io/01-edu/test-js", "cooldown": 0 }
+    ]
+  }
+}

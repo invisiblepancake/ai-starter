@@ -1,0 +1,15 @@
+{
+  "type": "exercise",
+  "name": "first-wink",
+  "attrs": {
+    "expectedFiles": ["first-wink.css", "first-wink.js", "first-wink.html"],
+    "language": "dom",
+    "validations": [
+      {
+        "type": "tester",
+        "testImage": "ghcr.io/01-edu/test-dom",
+        "cooldown": 0
+      }
+    ]
+  }
+}

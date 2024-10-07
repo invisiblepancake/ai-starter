@@ -1,0 +1,11 @@
+{
+  "type": "exercise",
+  "name": "the-smooth-operator",
+  "attrs": {
+    "expectedFiles": ["the-smooth-operator.js"],
+    "language": "js",
+    "validations": [
+      { "type": "tester", "testImage": "ghcr.io/01-edu/test-js", "cooldown": 0 }
+    ]
+  }
+}

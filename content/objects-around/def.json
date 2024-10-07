@@ -1,0 +1,11 @@
+{
+  "type": "exercise",
+  "name": "objects-around",
+  "attrs": {
+    "expectedFiles": ["objects-around.js"],
+    "language": "js",
+    "validations": [
+      { "type": "tester", "testImage": "ghcr.io/01-edu/test-js", "cooldown": 0 }
+    ]
+  }
+}

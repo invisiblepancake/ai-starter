@@ -1,0 +1,19 @@
+{
+  "type": "exercise",
+  "name": "colorful-arms",
+  "attrs": {
+    "expectedFiles": [
+      "colorful-arms.css",
+      "colorful-arms.js",
+      "colorful-arms.html"
+    ],
+    "language": "dom",
+    "validations": [
+      {
+        "type": "tester",
+        "testImage": "ghcr.io/01-edu/test-dom",
+        "cooldown": 0
+      }
+    ]
+  }
+}

@@ -1,0 +1,11 @@
+{
+  "type": "exercise",
+  "name": "good-recipe",
+  "attrs": {
+    "expectedFiles": ["good-recipe.js"],
+    "language": "js",
+    "validations": [
+      { "type": "tester", "testImage": "ghcr.io/01-edu/test-js", "cooldown": 0 }
+    ]
+  }
+}

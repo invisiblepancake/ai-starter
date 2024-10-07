@@ -1,0 +1,15 @@
+{
+  "type": "exercise",
+  "name": "call-it",
+  "attrs": {
+    "expectedFiles": ["call-it.html"],
+    "language": "dom",
+    "validations": [
+      {
+        "type": "tester",
+        "testImage": "ghcr.io/01-edu/test-dom",
+        "cooldown": 0
+      }
+    ]
+  }
+}

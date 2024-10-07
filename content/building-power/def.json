@@ -1,0 +1,30 @@
+{
+  "type": "quest",
+  "name": "Building Power",
+  "attrs": { "videos": "https://www.youtube.com/watch?v=XNjhAMhyVJo" },
+  "children": {
+    "star-forge": { "codeEditor": { "enabled": true }, "difficulty": 1.25 },
+    "declare-everything": {
+      "codeEditor": { "enabled": true },
+      "difficulty": 1.25
+    },
+    "play-with-variables": {
+      "codeEditor": { "enabled": true },
+      "difficulty": 1.25
+    },
+    "the-smooth-operator": {
+      "codeEditor": { "enabled": true },
+      "difficulty": 1.25
+    },
+    "objects-around": { "codeEditor": { "enabled": true }, "difficulty": 1.25 },
+    "transform-objects": {
+      "codeEditor": { "enabled": true },
+      "difficulty": 1.25
+    },
+    "listed": { "codeEditor": { "enabled": true }, "difficulty": 1.25 },
+    "good-recipe": { "codeEditor": { "enabled": true }, "difficulty": 1.25 },
+    "only-if": { "codeEditor": { "enabled": true }, "difficulty": 1.25 },
+    "first-function": { "codeEditor": { "enabled": true }, "difficulty": 1.25 },
+    "i-win-arguments": { "codeEditor": { "enabled": true }, "difficulty": 1.25 }
+  }
+}

@@ -1,0 +1,17 @@
+{
+  "type": "piscine",
+  "name": "AI-GO",
+  "attrs": {
+    "capacity": 400,
+    "displayedName": "AI.GO",
+    "eventDuration": 36960,
+    "eventStartDelay": 240,
+    "registrationDuration": 43200
+  },
+  "children": {
+    "shape-crafting": { "duration": 1, "scopeExtraDuration": 2 },
+    "building-power": { "duration": 1, "scopeExtraDuration": 2 },
+    "motion-magic": { "duration": 1, "scopeExtraDuration": 2 },
+    "robots-harmony": { "duration": 1.5, "info": "Group 1", "startAfter": 4320 }
+  }
+}

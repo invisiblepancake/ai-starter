@@ -1,0 +1,11 @@
+{
+  "type": "exercise",
+  "name": "transform-objects",
+  "attrs": {
+    "expectedFiles": ["transform-objects.js"],
+    "language": "js",
+    "validations": [
+      { "type": "tester", "testImage": "ghcr.io/01-edu/test-js", "cooldown": 0 }
+    ]
+  }
+}

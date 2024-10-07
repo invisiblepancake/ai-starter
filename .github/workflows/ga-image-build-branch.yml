@@ -34,11 +34,11 @@ jobs:
       - name: 🏗️ Build the Disco JS Docker image
         if: always()
         run: |
-          docker build test-images/js  --file test-images/js/Dockerfile --tag ghcr.io/${{ github.repository }}-js:PR${{ github.event.pull_request.number }};
+          docker build test-images/js/  --file test-images/js/Dockerfile --tag ghcr.io/${{ github.repository }}-js:PR${{ github.event.pull_request.number }};
           docker push ghcr.io/${{ github.repository }}-js:PR${{ github.event.pull_request.number }
           }
       - name: 🏗️ Build the Disco DOM Docker image
         if: always()
         run: |
-          docker build test-images/dom --file test-images/dom/Dockerfile --tag ghcr.io/${{ github.repository }}-dom:PR${{ github.event.pull_request.number }};
+          docker build test-images/dom/ --file test-images/dom/Dockerfile --tag ghcr.io/${{ github.repository }}-dom:PR${{ github.event.pull_request.number }};
           docker push ghcr.io/${{ github.repository }}-dom:PR${{ github.event.pull_request.number }}

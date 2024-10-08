@@ -16,21 +16,21 @@ jobs:
     name: 🗑️ Delete PR${{github.event.pull_request.number}} Image
     runs-on: ubuntu-latest
     steps:
-      - name: 🗑️ Delete Disco JS image PR${{github.event.pull_request.number}}
+      - name: 🗑️ Delete AI.GO! Piscine JS image PR${{github.event.pull_request.number}}
         uses: bots-house/ghcr-delete-image-action@v1.1.0
         with:
           owner: 01-edu
           #TODO: this value needs to change if repo name changes
-          name: discovery-piscine-ai-js
+          name: ${{ github.repository }}-js
           token: ${{ secrets.GITHUB_TOKEN }}
           tag: PR${{github.event.pull_request.number}}
         continue-on-error: true
 
-      - name: 🗑️ Delete Disco DOM image PR${{github.event.pull_request.number}}
+      - name: 🗑️ Delete AI.GO! Piscine DOM image PR${{github.event.pull_request.number}}
         uses: bots-house/ghcr-delete-image-action@v1.1.0
         with:
           owner: 01-edu
-          name: discovery-piscine-ai-dom
+          name: ${{ github.repository }}-dom
           token: ${{ secrets.GITHUB_TOKEN }}
           tag: PR${{github.event.pull_request.number}}
         continue-on-error: true
@@ -44,7 +44,7 @@ jobs:
         uses: bots-house/ghcr-delete-image-action@v1.1.0
         with:
           owner: 01-edu
-          name: discovery-piscine-ai-js
+          name: ${{ github.repository }}-js
           token: ${{ secrets.GITHUB_TOKEN }}
           untagged-keep-latest: ${{ github.event.inputs.keep-last }}
         continue-on-error: true
@@ -53,7 +53,7 @@ jobs:
         uses: bots-house/ghcr-delete-image-action@v1.1.0
         with:
           owner: 01-edu
-          name: discovery-piscine-ai-dom
+          name: ${{ github.repository }}-dom
           token: ${{ secrets.GITHUB_TOKEN }}
           untagged-keep-latest: ${{ github.event.inputs.keep-last }}
         continue-on-error: true

@@ -5,7 +5,11 @@
     "expectedFiles": ["the-smooth-operator.js"],
     "language": "js",
     "validations": [
-      { "type": "tester", "testImage": "ghcr.io/01-edu/test-js", "cooldown": 0 }
+      {
+        "type": "tester",
+        "testImage": "ghcr.io/01-edu/ai-go-js",
+        "cooldown": 0
+      }
     ]
   }
 }

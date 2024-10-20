@@ -18,7 +18,7 @@ This gallery won't be functional yet; it will be a fun and visually appealing ex
 
 > Remember what you learned when asking AI for precise concepts' explanations. Make use of them to do the actual fun work!
 
-### Challenge Mode
+### Challenge mode
 
 > AI Synergy mode: In this mode, you are using the research, time management, AI prompts, and collaboration skills to dive into a mission as a team. Remember that communication is the ultimate key!
 

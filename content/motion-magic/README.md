@@ -6,6 +6,6 @@ You've completed the previous challenges and gained all the knowledge power you 
 
 This is the third quest in your journey, where you will unlock the first small motions for your robot. But this isn't just about writing code—it's about thinking, creating, and designing with a new mindset.
 
-### Challenge Mode
+### Challenge mode
 
 > JSPowered Mode: In this mode, you already have enough tools to conquer any challenge by leveraging your ability to search, collaborate with peers, and use AI as a guide. Remember, peer collaboration will play the biggest role in your success.

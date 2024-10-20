@@ -10,4 +10,4 @@ Get ready to make some magic happen and bring your robot friend to life today! R
 
 ### Challenge mode
 
-> Brainpower mode : In this mode you can only use online resources and/or learning material we suggest and of course peer collaboration.Your mission is to solve the exercises and achieve your today's goal using your full brainpower and teamwork.
+> Brainpower mode : In this mode you can only use online resources and/or learning material we suggest and of course peer collaboration.Your mission is to solve the exercises and achieve your today's goal using your full brainpower and team work.

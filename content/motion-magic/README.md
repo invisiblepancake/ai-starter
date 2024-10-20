@@ -1,6 +1,6 @@
 # Motion Magic
 
-Welcome to the Motion Magic Quest!
+Welcome to the `Motion Magic` Quest!
 
 You've completed the previous challenges and gained all the knowledge power you need to bring your robot to life. Now, you’re stepping into the realm of motion control—where creativity meets code. Imagine yourself as a master creator, not just a coder but a true innovator, like Tony Stark when he first brings Iron Man to life. Except, in this quest, your tools are `JavaScript` and your ally is `AI`.
 

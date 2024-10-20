@@ -1,6 +1,6 @@
 # Shape Crafting
 
-Welcome to the `Shape-Crafting` Quest!
+Welcome to the `Shape Crafting` Quest!
 
 On this first day of our adventure, you’re on a thrilling mission to bring a robot friend from the world of imagination down to Earth—and you have one day to complete his shape! Picture this: you’re like a modern-day Dr. Frankenstein, but instead of using bolts and lightning, you’ll be using the magic of code!
 

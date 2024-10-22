@@ -1,9 +1,9 @@
 {
   "type": "piscine",
-  "name": "AI.starter piscine!",
+  "name": "AI.starter Piscine",
   "attrs": {
     "capacity": 400,
-    "displayedName": "AI.starter piscine!",
+    "displayedName": "AI.starter Piscine",
     "eventDuration": 36960,
     "eventStartDelay": 240,
     "registrationDuration": 43200

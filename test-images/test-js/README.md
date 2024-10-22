@@ -1,6 +1,6 @@
 # JS
 
-Tests that use node to do JavaScript exercises
+Tests that use node to execute JavaScript exercises
 
 ## Run test locally
 

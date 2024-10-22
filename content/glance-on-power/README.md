@@ -64,7 +64,7 @@ In doubt, `console.log` everything, don't be shy, they are free.
 
 ### Instructions
 
-To do this exercise, use the code editor on the right side of your window. In the `hello-there.js` file, code a program that displays:
+To do this exercise, use the code editor on the right side of your window. In the `glance-on-power.js` file, code a program that displays:
 
 - The exact text `Hello There!`
 - Any `Number` (like the robot's serial number)

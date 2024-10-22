@@ -1,7 +1,7 @@
 {
   "type": "quest",
   "name": "Shape Crafting",
-  "attrs": { "videos": "https://www.youtube.com/watch?v=-WxWbKwTwqU" },
+  "attrs": { "videos": "https://youtube.com/playlist?list=PLHyAJ_GrRtf-QeM7TnNpHdik46sAg_gcU&si=s4WPutro1-gOohvS" },
   "children": {
     "the-skeleton": { "codeEditor": { "enabled": true }, "difficulty": 1 },
     "call-it": { "codeEditor": { "enabled": true }, "difficulty": 1 },

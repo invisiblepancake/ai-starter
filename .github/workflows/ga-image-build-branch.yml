@@ -3,8 +3,6 @@ name: 🌳 On Branch - Build and Test Docker Image
 on:
   pull_request:
     paths:
-      - 'test-images/*'
-      - '.github/workflows/ga-image-build*'
     branches: ["master"]
     types: [ opened, reopened, synchronize ]
 

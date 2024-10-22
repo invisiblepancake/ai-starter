@@ -2,9 +2,6 @@ name: 🌳 On Master - Build and Test Docker Image
 
 on:
   push:
-    paths:
-      - 'test-images/*'
-      - '.github/workflows/ga-image-build*'
     branches: ["master"]
 
 jobs:

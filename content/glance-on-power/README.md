@@ -67,7 +67,7 @@ In doubt, `console.log` everything, don't be shy, they are free.
 To do this exercise, use the code editor on the right side of your window. In the `glance-on-power.js` file, code a program that displays:
 
 - The exact text `Hello There !`
-- Any `Number` (like the robot's serial number)
+- Any `Number` (like the robot's serial , and of course it should be greater than 0)
 - And a `Boolean` (indicating if the robot's sensors are active)
 
 Don't forget to test your code before submitting it, using the `Run` button.

@@ -1,6 +1,6 @@
 {
   "type": "raid",
-  "name": "Robots Harmony",
+  "name": "robots-harmony",
   "attrs": {
     "eventDuration": 2160,
     "eventStartDelay": 300,

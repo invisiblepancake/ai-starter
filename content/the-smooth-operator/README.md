@@ -80,7 +80,7 @@ quotes.
 
 Your code must use the given variable `smooth` as our initial value
 
-> When in doubt, always test your code with console.log() and the Run button.
+> When in doubt, always test your code with `console.log()` and the Run button.
 > But, when the platform gives you an already existing variable to manipulate, like the `smooth` variable here, if you want to use/display it, you have to do so with the submit button.
 > You'll then see the result in the code editor console output, as this variable is not available in `Run` button mode, but only in `Submit` button mode.
 
@@ -92,17 +92,17 @@ console.log("lessSmooth = ", lessSmooth);
 
 You will declare a few variables:
 
-- `lessSmooth` that is just `1` less than `smooth`
-- `semiSmooth` that is half the amount of `smooth` _(it's still pretty smooth)_
-- `plus11` that is `smooth` plus `11`
-- `ultraSmooth` that is the square of smooth _(now that's smooth!)_
+- `lessSmooth` that is just `1` less than `smooth`.
+- `semiSmooth` that is half the amount of `smooth`. _(it's still pretty smooth)_
+- `plus11` that is `smooth` plus `11`.
+- `ultraSmooth` that is the square of smooth. _(now that's smooth!)_
 
 #### Task 2:
 
 We will provide two variables `name` and `age`. They will be defined by us.
 
-Declare your robot's `presentation` variable with the value `Hello, my name is {name} and I'm {age} years old`
-Make sure you replace `{name}` and `{age}` with the appropriate values provided by us.
+Declare your robot's `presentation` variable with the value `Hello, my name is NAME and I'm AGE years old`
+Make sure you replace `NAME` and `AGE` with the appropriate values provided by us.
 
 ---
 

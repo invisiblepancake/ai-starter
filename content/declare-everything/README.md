@@ -56,7 +56,7 @@ In this case, it's `robotParts`. We choose something meaningful here.
 
 A few rules to apply to make sure an identifier is valid:
 
-- No space is allowed (`robot parts` would be interpreted as two distinct identifiers, which would result in a malformed let expression).
+- No space is allowed (`robot parts` would be interpreted as two distinct identifiers, which would result in a malformed `let` expression).
 - Not starting with a number (that's reserved for number values).
 - Not being a reserved keyword (for example, using `let`).
 - No special characters.

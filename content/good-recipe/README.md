@@ -103,8 +103,8 @@ You need to slice some virtual vegetables. Using the `.slice` method and the pro
 
 You needs to prepare ingredients for a recipe, and part of the preparation involves transforming text.
 
-For this task, you will use the `toUpperCase` and `toLowerCase` methods on the provided variable message.
+For this task, you will use the `toUpperCase` and `toLowerCase` methods on the provided variable `message`.
 
-- Create a `noCaps` variable with the value of message but in lower case to simulate finely chopped ingredients.
+- Create a `noCaps` variable with the value of `message` but in lower case to simulate finely chopped ingredients.
 
-- Create an `allCaps` variable with the value of message but in upper case to simulate ingredients being loudly announced.
+- Create an `allCaps` variable with the value of `message` but in upper case to simulate ingredients being loudly announced.

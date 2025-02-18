@@ -56,10 +56,10 @@ In this case, it's `robotParts`. We choose something meaningful here.
 
 A few rules to apply to make sure an identifier is valid:
 
-- No space allowed (`robot parts` would have two distinct identifiers, which would make the `let` expression malformed)
-- Not starting with a number (that's reserved for number values)
-- Not being a reserved keyword (for example, using `let`)
-- No special characters
+- No space is allowed (`robot parts` would be interpreted as two distinct identifiers, which would result in a malformed let expression).
+- Not starting with a number (that's reserved for number values).
+- Not being a reserved keyword (for example, using `let`).
+- No special characters.
 
 As such, we use what's called `camelCase`.
 
@@ -100,8 +100,8 @@ let comicBookTitle = "Tintin in Tibet";
 
 Declare two variables:
 
-- Use the identifier `seven` with the value being a string of the number 7
-- Use the identifier `seventySeven` with the value being a string of the number 77
+- Use the identifier `seven` with the value being a string of the number `7`.
+- Use the identifier `seventySeven` with the value being a string of the number `77`.
 
 ---
 

@@ -34,7 +34,7 @@ Add the button style in the CSS file:
 }
 ```
 
-Also replace the ``button` element styles with this block:
+Also replace the `button` element styles with this block:
 
 ```css
 button {
@@ -60,7 +60,7 @@ In the JS file, like in the previous exercise, get the following elements:
 
 In the code example below, we show you the variable `randomColor` which stores a random color each time we use it.
 
-- Create a function that applies the random color to both arms by changing their `backgroundColor`every time the function is called.
+- Create a function that applies **the same random color** to both arms by changing their `backgroundColor` every time the function is called.
 - Then add an `event listener` on `click event` for the button with ID `arm-color`.
 
 ### Code Example:

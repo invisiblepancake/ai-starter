@@ -66,7 +66,7 @@ To create a `div` tag with `hello` as text content inside the `body`:
 </body>
 ```
 
-> Hint: Do not forget the `<head> </head>` and `<body> </body>` tags! It is always good to follow the good practice ;)
+> Hint: Do not forget the `<head>` and `<body>` tags! Even though browsers automatically add them if missing, it's always good practice to include them for better structure and readability ;) 
 
 ### Notions
 
